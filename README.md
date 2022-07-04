@@ -27,14 +27,17 @@ const hoge: { a: string } = {
 const hoge2 = Object.fromEntries(Object.entries(hoge));
 ```
 Placed in this code, hoge and hoge2 should truly have the same type.    
+<br>
 But let's look at it in the editor. (Below is a sample in VSCode…)
 
----
+![image](https://user-images.githubusercontent.com/84216737/177096061-8f7baec1-178a-4669-9cda-e92967ed15ad.png)
 
 Oh! We lost the type!  
 But don't worry, if you add the code shown in the "How to use?" section...?
 
----
+<br>
+
+![image](https://user-images.githubusercontent.com/84216737/177096167-b92d0e72-e5f7-4b80-8bf2-8fe5d7528b50.png)
 
 Welcome back, my lovely type definition.  
 ...That's the kind of package.
