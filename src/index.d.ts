@@ -8,3 +8,4 @@ export declare interface BetterObjectConstructor extends ObjectConstructor {
     U
   ][];
 }
+
