@@ -1,0 +1,17 @@
+{
+  "name": "better-object-constructor",
+  "version": "1.0.0",
+  "repository": "https://github.com/AsPulse/BetterObjectConstructor.git",
+  "author": "aspulse <aspulse.x@gmail.com>",
+  "license": "MIT",
+  "types": "./src/index.d.ts",
+  "files": [
+    "./src"
+  ],
+  "description": "Modify some type definitions of Object in TypeScript.",
+  "keywords": [
+    "typescript",
+    "type",
+    "object"
+  ]
+}
